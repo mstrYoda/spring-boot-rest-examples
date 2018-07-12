@@ -20,7 +20,7 @@ public class UserController {
         this.userRepository = userRepository;
     }
 
-    @PostMapping("/")
+    @PostMapping({"", "/"})
     public ResponseEntity<User> createUser(@RequestBody CreateUserRequest request) {
         User user = new User();
         user.setAge(request.getAge());
