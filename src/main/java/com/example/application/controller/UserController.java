@@ -35,6 +35,11 @@ public class UserController {
         return ResponseEntity.ok(userRepository.getOne(id));
     }
 
+    @GetMapping({"/", ""})
+    public ResponseEntity listUsers(){
+        return ResponseEntity.ok(userRepository.findAll());
+    }
+
     @PutMapping("/{id}")
     public ResponseEntity<User> updateUser(@PathVariable("id") int id, @RequestBody UpdateUserRequest request) {
         return ResponseEntity.ok(null);
