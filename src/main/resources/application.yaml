@@ -1,0 +1,26 @@
+spring:
+  profiles:
+    active: "dev"
+
+spring:
+  profiles: dev
+  application:
+    name: Trendyol Delivery Dispatcher API
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: "jdbc:h2:mem:test-api;INIT=CREATE SCHEMA IF NOT EXISTS dbo\\;CREATE SCHEMA IF NOT EXISTS definitions;DATABASE_TO_UPPER=false;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false;MODE=MSSQLServer"
+    name:
+    password:
+    username:
+    initialization-mode: never
+    hikari:
+      schema: dbo
+  jpa:
+    database: H2
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  test:
+    database:
+      replace: none
