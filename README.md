@@ -8,7 +8,7 @@ It is a guide to show how to do:
 * [X] Controller exception handling
 * [X] Avoid boilerplate code using <b>Lombok</b>
 * [ ] Pagination with <b>PagingAndSortingRepository</b>
-* [ ] Custom queries with <b>specifications</b>
+* [X] Custom queries with <b>specifications</b>
 * [ ] Custom queries with <b>example</b>
 * [ ] Relationship
 * [X] Unit testing controller with <b>MockMvc</b>
