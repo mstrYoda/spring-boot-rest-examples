@@ -5,7 +5,7 @@ It is a guide to show how to do:
 
 * [X] Routing
 * [X] Parameter binding
-* [X] Controller exception handling with <b>ControllerAdvice</b>
+* [X] Controller exception handling with <b>@ControllerAdvice</b>
 * [X] Avoid boilerplate code using <b>Lombok</b>
 * [X] Swagger UI
 * [ ] Pagination with <b>PagingAndSortingRepository</b>
