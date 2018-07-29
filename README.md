@@ -1,5 +1,5 @@
 # spring-boot-rest-examples
-This is an example project about spring boot rest.
+This is an example project about spring boot rest. This project does not consider architectural patterns, purpose of project is to show how to use spring boot with fundemental features.
 
 It is a guide to show how to do:
 
