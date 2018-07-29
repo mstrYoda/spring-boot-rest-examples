@@ -7,6 +7,7 @@ It is a guide to show how to do:
 * [X] Parameter binding
 * [X] Controller exception handling
 * [X] Avoid boilerplate code using <b>Lombok</b>
+* [X] Swagger UI
 * [ ] Pagination with <b>PagingAndSortingRepository</b>
 * [X] Custom queries with <b>specifications</b>
 * [ ] Custom queries with <b>example</b>
