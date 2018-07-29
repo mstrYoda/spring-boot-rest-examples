@@ -3,10 +3,7 @@ package com.example.domain.user;
 import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.UUID;
 
 @Data
@@ -20,4 +17,7 @@ public class User {
     private String name;
     private String email;
     private int age;
+    
+    @Embedded
+    private Address address;
 }

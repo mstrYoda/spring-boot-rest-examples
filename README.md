@@ -11,6 +11,7 @@ It is a guide to show how to do:
 * [X] Custom queries with <b>specifications</b>
 * [ ] Custom queries with <b>example</b>
 * [ ] Relationship
+* [X] Complex type property using Embeddable & Embedded
 * [X] Unit testing controller with <b>MockMvc</b>
 * [ ] Unit testing repositories with <b>DataJpaTest & TestEntityManager</b>
 * [ ] Consumer driven contract testing with <b>Pact</b>
