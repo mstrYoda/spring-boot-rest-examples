@@ -14,5 +14,5 @@ It is a guide to show how to do:
 * [ ] Relationship
 * [X] Complex type property using <b>@Embeddable</b> & <b>@Embedded</b>
 * [X] Unit testing controller with <b>MockMvc</b>
-* [ ] Unit testing repositories with <b>DataJpaTest & TestEntityManager</b>
+* [X] Unit testing repositories with <b>@DataJpaTest & TestEntityManager</b>
 * [ ] Consumer driven contract testing with <b>Pact</b>
