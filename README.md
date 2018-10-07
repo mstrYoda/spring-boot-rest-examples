@@ -13,6 +13,7 @@ It is a guide to show how to do:
 * [ ] Custom queries with <b>example</b>
 * [ ] Relationship
 * [X] Complex type property using <b>@Embeddable</b> & <b>@Embedded</b>
+* [X] <b>@RepositoryRestResource</b> and <b>@Projection</b> for rapidly building crud applications
 * [X] Unit testing controller with <b>MockMvc</b>
 * [X] Unit testing repositories with <b>@DataJpaTest & TestEntityManager</b>
 * [ ] Consumer driven contract testing with <b>Pact</b>
